@@ -1,0 +1,203 @@
+#title{
+  text-align: center;
+  color: white;
+}
+#title:hover{
+  color: cyan;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 5);
+}
+
+#mymaincontainer {
+  background-color: rgb(97, 84, 84);
+  border: 1px solid rgb(36, 33, 33);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px 20px 20px 20px;
+}
+#mymaincontainer:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 
+  0 25px 60px 0 rgba(0,0,0,0.19);
+}
+
+
+/* Input box layout */
+.classone {
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 12vh;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myinp {
+  border-radius: 20px 20px 20px 20px;
+  font-size: 20px;
+  width: 300px;
+  height: 50px;
+  border: 2px solid #ccc;
+  transition: border-color 0.3s ease-in-out;
+}
+#myinp:hover{
+  /* border: 2px solid red; */
+  border-color: #ff0000;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 
+  0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* top row of button layout */
+.classtop {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  height: 12.8vh;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;    /*to make buttons stay on left*/ 
+  justify-content: flex-start;  /*to make buttons stay on left*/
+}
+.otherbtn {
+  background-color: #d1d126;
+  width: 75px;
+  height: 80px;
+}
+.otherbtn:hover{
+  background-color: #ffff00;
+}
+
+
+/* 1st row of button layout */
+.classtwo {
+  width: 300px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  height: 12.8vh;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;    /*to make buttons stay on left*/ 
+  justify-content: flex-start;  /*to make buttons stay on left*/
+  
+  
+}
+
+.mybuttons {
+  
+  width: 75px;
+  height: 80px;
+}
+
+
+/* 2nd row of button layout */
+.classthree {
+  width: 300px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  height: 12.8vh;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;    /*to make buttons stay on left*/ 
+  justify-content: flex-start;  /*to make buttons stay on left*/
+}
+
+.mybuttons2 {
+  width: 75px;
+  height: 80px;
+}
+
+
+/* 3rd row of button layout */
+.classfour {
+  width: 300px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  height: 12.8vh;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;    /*to make buttons stay on left*/ 
+  justify-content: flex-start;  /*to make buttons stay on left*/
+}
+
+.mybuttons3 {
+  width: 75px;
+  height: 80px;
+}
+
+
+
+/* 4th row of operators layout */
+.classfive {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  height: 12.8vh;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;    /*to make buttons stay on left*/ 
+  justify-content: flex-start;  /*to make buttons stay on left*/
+}
+
+/* .myoperator1 {
+  width: 58px;
+  height: 80px;
+} */
+
+
+#divideradius{
+  border-radius: 0 20px 0 0;
+}
+/* Clear button style */
+#clear {
+  border-radius: 20px 0 0 0;
+  background-color: #f53636;
+  color: white;
+}
+#clear:hover{
+  background-color:  #e81313;
+}
+
+/* Del button style */
+#delete {
+  background-color: #f53636;
+  color: white;
+}
+#delete:hover{
+  background-color:  #e81313;
+}
+
+
+/* Answer button style */
+.ansbtnsize {
+  width: 150px;
+}
+#ans {
+  border-radius: 0 0 20px 0;
+  background-color: #338ef5;
+  color: white;
+}
+#ans:hover{
+  background-color: #0377fc;
+}
+
+#bottomleftradius{
+  border-radius: 0 0 0 20px;
+}
+
+/* exit button style */
+#exit{
+  background-color: #f53636;
+  color: white;
+}
+#exit:hover{
+  background-color:  #e81313;
+}

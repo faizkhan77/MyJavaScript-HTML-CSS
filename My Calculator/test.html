@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+
+    <body style="background-color: gray">
+     
+        <h1 id="title">The Faiz Khan MyCalculator</h1>
+      
+
+        <div id="mymaincontainer">
+            <div class="classone">
+            <input type="text" id="myinp" placeholder="Welcome to MyCalculator">
+            </div>
+            
+            <div class="classtop">
+                <button class="otherbtn" id="clear" type="button" onclick="clearbtn()">CLEAR</button>
+                <button class="otherbtn" id="delete" type="button" onclick="deletebtn()">DEL</button>
+                <button class="otherbtn" id="exit" type="button" onclick="exitbtn()">Exit</button>
+                <button class="otherbtn" id="divideradius" type="button" style="font-size: 20px;" onclick="insertOp('/')">/</button>
+
+            </div>
+
+            <div class="classtwo">
+                <button class="mybuttons" type="button" onclick="insertNum(7)">7</button>
+                <button class="mybuttons" type="button" onclick="insertNum(8)">8</button>
+                <button class="mybuttons" type="button" onclick="insertNum(9)">9</button>
+                <button class="otherbtn" type="button" style="font-size: 20px;" onclick="insertOp('*')">x</button>
+
+            </div>
+
+            <div class="classthree">
+                <button class="mybuttons2" type="button" onclick="insertNum(4)">4</button>
+                <button class="mybuttons2" type="button" onclick="insertNum(5)">5</button>
+                <button class="mybuttons2" type="button" onclick="insertNum(6)">6</button>
+                <button class="otherbtn" type="button" style="font-size: 28px;" onclick="insertOp('-')">-</button>
+            </div>
+
+            <div class="classfour">
+                <button class="mybuttons3" type="button" onclick="insertNum(1)">1</button>
+                <button class="mybuttons3" type="button" onclick="insertNum(2)">2</button>
+                <button class="mybuttons3" type="button" onclick="insertNum(3)">3</button>
+                <button class="otherbtn" id="plus" type="button" style="font-size: 25px;" onclick="insertOp('+')">+</button>
+            </div>
+
+            <div class="classfive">
+                <button class="mybuttons3" id="bottomleftradius" type="button" onclick="insertNum(0)">0</button>
+                <button class="mybuttons3" style="font-size: 35px;" type="button" onclick="insertNum('.')">.</button>
+                <button class="ansbtnsize" id="ans" style="font-size: 30px;" onclick="result()">=</button>
+
+            </div>
+        </div>
+
+        <script src="myjs.js"></script>
+    </body>
+</html>
